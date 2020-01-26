@@ -21,5 +21,18 @@
   position: relative;
   z-index: 2;
   height: 100vh;
+}
 
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.header__logo p {
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
 }
